@@ -1,7 +1,7 @@
 #!/bin/bash
 
 message="$*"
-if [ -z "$*" ]; then
+if [ -z "$message" ]; then
 	message="no message"
 fi
 
